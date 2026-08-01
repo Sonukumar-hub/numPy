@@ -35,5 +35,31 @@ y = np.array([1,2,3,4],ndmin=5)
 print(y)
 print(y.shape)
 
-# [[[[[1 2 3 4]]]]]
-# (1, 1, 1, 1, 4)
+# output -
+# [[[ 1  2]
+#   [ 3  4]
+#   [ 5  6]]
+
+#  [[ 7  8]
+#   [ 9 10]
+#   [11 12]]]
+
+
+# unknown dimension - you are only allowed to have one unknown dimension . pass -1
+# -1 represent how many no of element shold present in a row
+shared = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
+shared1 = shared.reshape(2,2,-1)
+
+print (shared1)
+
+
+# flatening the array by converting multidimensional array in 1-D
+
+a = np.array([[1,2,3],[4,5,6]])
+b = a.reshape(-1)
+print(b)
+
+
+# output - [1 2 3 4 5 6]
+
+# there are alot of function for changing the shape of an arrayin numpy. like flatten,ravel and also rearranging the element rot90,flip,fliplr,flipud. they all are actually comes under advance numpy
