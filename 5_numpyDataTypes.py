@@ -17,7 +17,7 @@ import numpy as np
 x = np.array([1,2,3,4,5])
 print(x.dtype)
 
-# checking the data type of numpy array - wstring
+# checking the data type of numpy array - string
 
 import numpy as np
 x = np.array(['apple','mango','banana'])
