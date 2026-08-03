@@ -21,7 +21,7 @@ print(x_new)
 # output :- (array([1, 3, 5, 6]),)
 
 
-# ------------------searchorted():-perform binary search and give index-------------
+# ------------------searshorted():-perform binary search and give index-------------
 
 import numpy as np
 
