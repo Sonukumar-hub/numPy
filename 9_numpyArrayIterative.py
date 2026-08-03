@@ -47,5 +47,5 @@ for i in np.nditer(x):
 import numpy as np
 
 x = np.array([[1,2,3,4],[5,6,7,8]])
-for i in np.nditer(x[:, ::2]):
+for i in np.nditer(x[:,::2]):
     print(i)
